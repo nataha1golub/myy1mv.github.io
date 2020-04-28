@@ -1,0 +1,186 @@
+#a1 {
+  display: block;
+  margin: 0 auto;
+  padding-top: 50 px;
+  height: 1000px;
+
+}
+html {
+	background-color: black;
+}
+#a2 {
+  color: rgb(255, 160, 122);
+  padding-top: 10%;
+  padding-left: 610px;
+  font-size: 60px; 
+}
+#a3 {
+  color: rgb(255, 160, 122);
+  padding-left: 610px;
+  font-size: xx-large;
+}
+#a4 {
+   padding-left: 700px;
+   height: 55px;
+
+}
+body {
+   background: url(https://wallbox.ru/wallpapers/main/201126/232ad3a6f6f4c62da0f0efda32e27fd7.jpg)
+}
+#a5 {
+   padding-left: 200px;
+   padding-top: 200px;
+}
+#a7 {
+   color: white;
+   font-size: x-large;
+   padding-left: 800px;
+   padding-top: 200px; 
+}
+#a8 {
+   color: white;
+   font-size: x-large;
+   padding-left: 300px;
+   padding-bottom: -300px;
+
+}
+#a9 {
+   color:white;
+   padding-top: 300px;
+}
+.slider{
+    max-width: 70%;
+    position: relative;
+    margin: auto;
+    height: 900px;
+    margin-bottom: 15px;
+    margin-top: 300px;
+}
+/* Картинка мастабируется по отношению к родительскому элементу */
+.slider .item img {
+    object-fit: cover;
+    width: 100%;
+    height: 800px;
+    border: none !important;
+    box-shadow: none !important;
+}
+/* Кнопки вперед и назад */
+.slider .prev, .slider .next {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+.slider .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+/* При наведении на кнопки добавляем фон кнопок */
+.slider .prev:hover,
+.slider .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+/* Заголовок слайда */
+.slideText {
+    position: absolute;
+    color: rgb(131, 113, 52);
+    font-size: 40px;
+    /* Выравнивание текста по горизонтали и по вертикали*/
+    left: 50%;
+    top: -4%;
+    transform: translate(-50%, -50%);
+    /* Тень*/
+    text-shadow: 1px 1px 1px #000, 0 0 1em #000;
+}
+/* Кружочки */
+.slider-dots {
+    text-align: center;
+}
+.slider-dots_item{
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active,
+.slider-dots_item:hover {
+    background-color:rgb(66, 66, 66);
+}
+/* Анимация слайдов */
+.slider .item {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+#a10
+{
+color: black;
+margin-left: 42%;
+margin-top: 150px;
+padding-top: 20 px;
+padding-left: 100px;
+background-color: rgb(255, 160, 122);
+height: 50px;
+}
+#a11
+{
+color: black;
+margin-left: 42%;
+padding-top: 20 px;
+padding-left: 100px;
+background-color: rgb(255, 160, 122);
+height: 50px;
+}
+#a12
+{
+color: black;
+margin-left: 45.6%;
+padding-top: 20 px;
+background-color: rgb(255, 160, 122);
+height: 50px;
+}
+#a13
+{
+  display: block;
+  margin: 0 auto;
+  padding-top: 50 px;
+  height: 1000px;
+}
+#a14
+{
+  display: block;
+  margin: 0 auto;
+  padding-top: 50 px;
+  margin-top: 10%;
+  height: 670px;
+}
